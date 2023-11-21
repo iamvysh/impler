@@ -1,0 +1,33 @@
+.product_mainContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+}
+
+.product_header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.produts_list{
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+margin-bottom: 50px;
+    
+    
+    
+}
+.products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    column-gap: 50px;
+    row-gap: 50px;
+}
